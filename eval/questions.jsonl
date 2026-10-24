@@ -1,0 +1,32 @@
+{"q": "How long do I have to register after moving in?", "lang": "en", "expect": ["bmg-17", "berlin-anmeldung"]}
+{"q": "Wie lange habe ich Zeit, mich nach dem Einzug anzumelden?", "lang": "de", "expect": ["bmg-17", "berlin-anmeldung"]}
+{"q": "What is a Wohnungsgeberbestätigung?", "lang": "en", "expect": ["bmg-19", "berlin-anmeldung"]}
+{"q": "Was muss in der Wohnungsgeberbestätigung stehen?", "lang": "de", "expect": ["bmg-19", "berlin-anmeldung"]}
+{"q": "Can I use my rental contract instead of the landlord confirmation?", "lang": "en", "expect": ["berlin-anmeldung"]}
+{"q": "Ersetzt der Mietvertrag die Wohnungsgeberbestätigung?", "lang": "de", "expect": ["berlin-anmeldung"]}
+{"q": "My landlord refuses to give me the confirmation. What should I do?", "lang": "en", "expect": ["bmg-19"]}
+{"q": "Der Vermieter verweigert die Bestätigung, was nun?", "lang": "de", "expect": ["bmg-19"]}
+{"q": "What documents do I need to bring to the Bürgeramt?", "lang": "en", "expect": ["berlin-anmeldung", "bmg-23"]}
+{"q": "Welche Unterlagen brauche ich für die Anmeldung?", "lang": "de", "expect": ["berlin-anmeldung", "bmg-23"]}
+{"q": "Does registering cost anything?", "lang": "en", "expect": ["berlin-anmeldung"]}
+{"q": "Kostet die Anmeldung Gebühren?", "lang": "de", "expect": ["berlin-anmeldung"]}
+{"q": "I have two flats in Germany. Which one is my main residence?", "lang": "en", "expect": ["bmg-21", "bmg-22"]}
+{"q": "Was ist der Unterschied zwischen Hauptwohnung und Nebenwohnung?", "lang": "de", "expect": ["bmg-21", "bmg-22"]}
+{"q": "I'm married but work in another city during the week. Where is my main residence?", "lang": "en", "expect": ["bmg-22"]}
+{"q": "I live abroad and stay in Germany for two months. Do I have to register?", "lang": "en", "expect": ["bmg-27", "berlin-anmeldung"]}
+{"q": "Muss ich mich anmelden, wenn ich nur vier Monate bleibe und schon in Deutschland gemeldet bin?", "lang": "de", "expect": ["bmg-27", "berlin-anmeldung"]}
+{"q": "What happens if I register too late? Is there a fine?", "lang": "en", "expect": ["bmg-54"]}
+{"q": "Wie hoch ist das Bußgeld bei verspäteter Anmeldung?", "lang": "de", "expect": ["bmg-54"]}
+{"q": "Who registers a child under 16?", "lang": "en", "expect": ["bmg-17", "berlin-anmeldung"]}
+{"q": "Can I register online?", "lang": "en", "expect": ["berlin-anmeldung"]}
+{"q": "Kann ich mich online anmelden?", "lang": "de", "expect": ["berlin-anmeldung"]}
+{"q": "Can someone else register for me?", "lang": "en", "expect": ["berlin-anmeldung"]}
+{"q": "Why does the form ask about my religion?", "lang": "en", "expect": ["bmg-3"]}
+{"q": "Which personal data does the registration office store?", "lang": "en", "expect": ["bmg-3"]}
+{"q": "What is a pre-filled registration form (vorausgefüllter Meldeschein)?", "lang": "en", "expect": ["bmg-23"]}
+{"q": "Is it allowed to offer my address to someone for registration who doesn't live there?", "lang": "en", "expect": ["bmg-19", "bmg-54"]}
+{"q": "How long does processing take at the Bürgeramt?", "lang": "en", "expect": ["berlin-anmeldung"]}
+{"q": "How do I apply for an EU Blue Card?", "lang": "en", "out_of_scope": true}
+{"q": "Wie mache ich meine Steuererklärung?", "lang": "de", "out_of_scope": true}
+{"q": "What's a good recipe for Käsespätzle?", "lang": "en", "out_of_scope": true}
+{"q": "How do I get my Pakistani degree attested by HEC?", "lang": "en", "out_of_scope": true}

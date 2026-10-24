@@ -1,0 +1,68 @@
+# Official, public sources used as the assistant's only knowledge base.
+# Statutes are not protected by copyright (§ 5 UrhG). For portal pages we keep
+# only the sections listed under `sections`, always with attribution and a link.
+retrieved_at: "2026-10-24"
+
+sources:
+  - id: bmg-17
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__17.html
+    title: "§ 17 BMG – Anmeldung, Abmeldung"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-19
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__19.html
+    title: "§ 19 BMG – Mitwirkung des Wohnungsgebers"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-21
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__21.html
+    title: "§ 21 BMG – Mehrere Wohnungen"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-22
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__22.html
+    title: "§ 22 BMG – Bestimmung der Hauptwohnung"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-23
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__23.html
+    title: "§ 23 BMG – Erfüllung der allgemeinen Meldepflicht"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-27
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__27.html
+    title: "§ 27 BMG – Ausnahmen von der Meldepflicht"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-3
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__3.html
+    title: "§ 3 BMG – Speicherung von Daten"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: bmg-54
+    kind: statute
+    url: https://www.gesetze-im-internet.de/bmg/__54.html
+    title: "§ 54 BMG – Bußgeldvorschriften"
+    publisher: Bundesministerium der Justiz (gesetze-im-internet.de)
+    lang: de
+  - id: berlin-anmeldung
+    kind: portal
+    url: https://service.berlin.de/dienstleistung/120686/
+    title: "Wohnsitz – Alleinige Wohnung oder Hauptwohnung anmelden (Service-Portal Berlin)"
+    publisher: Land Berlin (service.berlin.de)
+    lang: de
+    # Keep the intro (text under the H1) and these sections only; the long
+    # list of individual Bürgerämter is deliberately dropped.
+    sections:
+      - Voraussetzungen
+      - Erforderliche Unterlagen
+      - Gebühren
+      - Rechtsgrundlagen
+      - Durchschnittliche Bearbeitungszeit

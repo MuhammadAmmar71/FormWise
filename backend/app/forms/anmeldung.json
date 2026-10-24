@@ -1,0 +1,378 @@
+{
+  "id": "anmeldung",
+  "title": {
+    "de": "Anmeldung einer Wohnung (Meldeschein)",
+    "en": "Registering your address (Anmeldung)"
+  },
+  "note": {
+    "de": "Vereinfachte Darstellung der Felder des Meldescheins nach § 23 BMG. Das echte Formular Ihrer Meldebehörde kann anders aussehen.",
+    "en": "Simplified view of the registration form (Meldeschein, § 23 BMG). The real form at your registration office may look different."
+  },
+  "groups": [
+    {
+      "id": "residence",
+      "label": {
+        "de": "Neue Wohnung",
+        "en": "New residence"
+      },
+      "fields": [
+        {
+          "id": "new_address",
+          "label": {
+            "de": "Neue Wohnung (Straße, Hausnummer, PLZ, Gemeinde)",
+            "en": "New address (street, number, postcode, town)"
+          },
+          "help": {
+            "de": "Die Anschrift der Wohnung, in die Sie eingezogen sind. Die Meldebehörde speichert Ihre derzeitigen Anschriften.",
+            "en": "The address of the flat you moved into. The registration office records your current addresses."
+          },
+          "sources": [
+            "bmg-3",
+            "bmg-17"
+          ],
+          "demo": "Musterstraße 12, 56068 Koblenz"
+        },
+        {
+          "id": "move_in_date",
+          "label": {
+            "de": "Tag des Einzugs",
+            "en": "Date you moved in"
+          },
+          "help": {
+            "de": "Das Datum, an dem Sie tatsächlich eingezogen sind. Ab diesem Tag haben Sie zwei Wochen Zeit, sich anzumelden.",
+            "en": "The date you actually moved in. You have two weeks from this date to register."
+          },
+          "sources": [
+            "bmg-17",
+            "bmg-3"
+          ],
+          "demo": "01.10.2026"
+        },
+        {
+          "id": "residence_type",
+          "label": {
+            "de": "Art der Wohnung (alleinige Wohnung / Hauptwohnung / Nebenwohnung)",
+            "en": "Type of residence (sole / main / secondary)"
+          },
+          "help": {
+            "de": "Haben Sie nur diese eine Wohnung in Deutschland, ist es Ihre alleinige Wohnung. Bei mehreren Wohnungen ist die vorwiegend benutzte die Hauptwohnung, alle weiteren sind Nebenwohnungen.",
+            "en": "If this is your only home in Germany, it is your sole residence. If you have several, the one you mainly use is your main residence and the others are secondary residences."
+          },
+          "sources": [
+            "bmg-21",
+            "bmg-22"
+          ],
+          "demo": "alleinige Wohnung"
+        },
+        {
+          "id": "previous_address",
+          "label": {
+            "de": "Bisherige Wohnung (bei Zuzug aus dem Ausland: Staat)",
+            "en": "Previous address (if moving from abroad: the country)"
+          },
+          "help": {
+            "de": "Ihre letzte Anschrift. Wenn Sie aus dem Ausland zuziehen, wird auch der Staat und Ihre letzte Anschrift in Deutschland (falls vorhanden) erfasst.",
+            "en": "Your last address. If you are moving from abroad, the country and your last address in Germany (if you had one) are recorded too."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "Pakistan (Lahore)"
+        },
+        {
+          "id": "previous_kept",
+          "label": {
+            "de": "Wird die bisherige Wohnung beibehalten?",
+            "en": "Are you keeping your previous home?"
+          },
+          "help": {
+            "de": "Bei jeder Anmeldung müssen Sie angeben, welche weiteren Wohnungen Sie in Deutschland haben und welche Ihre Hauptwohnung ist.",
+            "en": "Every time you register you must state which other homes you have in Germany and which one is your main residence."
+          },
+          "sources": [
+            "bmg-21"
+          ],
+          "demo": "nein"
+        }
+      ]
+    },
+    {
+      "id": "person",
+      "label": {
+        "de": "Angaben zur Person",
+        "en": "Personal details"
+      },
+      "fields": [
+        {
+          "id": "family_name",
+          "label": {
+            "de": "Familienname",
+            "en": "Family name"
+          },
+          "help": {
+            "de": "Ihr aktueller Familienname wie im Ausweisdokument.",
+            "en": "Your current family name as shown in your ID document."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "Mustermann"
+        },
+        {
+          "id": "former_names",
+          "label": {
+            "de": "Frühere Namen / Geburtsname",
+            "en": "Former names / birth name"
+          },
+          "help": {
+            "de": "Frühere Familiennamen, z. B. den Geburtsnamen vor einer Heirat.",
+            "en": "Any earlier family names, e.g. your birth name before marriage."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "—"
+        },
+        {
+          "id": "given_names",
+          "label": {
+            "de": "Vornamen (gebräuchlichen Vornamen kennzeichnen)",
+            "en": "Given names (mark the one you go by)"
+          },
+          "help": {
+            "de": "Alle Vornamen; der gebräuchliche Vorname (Rufname) wird gekennzeichnet, z. B. unterstrichen.",
+            "en": "All your given names; the one you actually use is marked, e.g. underlined."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "Max"
+        },
+        {
+          "id": "doctoral_degree",
+          "label": {
+            "de": "Doktorgrad",
+            "en": "Doctoral degree"
+          },
+          "help": {
+            "de": "Nur ausfüllen, wenn Sie einen Doktorgrad führen.",
+            "en": "Only fill this in if you hold a doctorate."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "—"
+        },
+        {
+          "id": "sex",
+          "label": {
+            "de": "Geschlecht",
+            "en": "Sex"
+          },
+          "help": {
+            "de": "Ihr Geschlecht, wie es im Melderegister gespeichert wird.",
+            "en": "Your sex as it is stored in the population register."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "männlich"
+        },
+        {
+          "id": "birth",
+          "label": {
+            "de": "Geburtsdatum und Geburtsort (bei Geburt im Ausland: Staat)",
+            "en": "Date and place of birth (if born abroad: the country)"
+          },
+          "help": {
+            "de": "Bei Geburt im Ausland wird zusätzlich der Staat angegeben.",
+            "en": "If you were born abroad, the country is recorded as well."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "01.01.2000, Musterstadt"
+        },
+        {
+          "id": "religion",
+          "label": {
+            "de": "Religionszugehörigkeit",
+            "en": "Religious affiliation"
+          },
+          "help": {
+            "de": "Gefragt ist nur die rechtliche Zugehörigkeit zu einer öffentlich-rechtlichen Religionsgesellschaft – nicht Ihr persönlicher Glaube.",
+            "en": "This asks only about legal membership in a religious community that is a public-law corporation in Germany – not about your personal beliefs."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "keine"
+        },
+        {
+          "id": "nationality",
+          "label": {
+            "de": "Staatsangehörigkeit(en)",
+            "en": "Nationality / nationalities"
+          },
+          "help": {
+            "de": "Alle derzeitigen Staatsangehörigkeiten.",
+            "en": "All nationalities you currently hold."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "deutsch"
+        },
+        {
+          "id": "marital_status",
+          "label": {
+            "de": "Familienstand (ggf. Datum und Ort der Eheschließung)",
+            "en": "Marital status (if married: date and place of marriage)"
+          },
+          "help": {
+            "de": "Bei Verheirateten oder Lebenspartnern zusätzlich Datum und Ort der Eheschließung bzw. Begründung der Lebenspartnerschaft, bei Heirat im Ausland auch der Staat.",
+            "en": "If married or in a civil partnership, also the date and place of the marriage/partnership, and the country if it took place abroad."
+          },
+          "sources": [
+            "bmg-3"
+          ],
+          "demo": "ledig"
+        },
+        {
+          "id": "id_document",
+          "label": {
+            "de": "Ausweisdokument (Art, Behörde, Seriennummer, Ausstellungsdatum, gültig bis)",
+            "en": "ID document (type, issuing authority, serial number, issue date, valid until)"
+          },
+          "help": {
+            "de": "Angaben zu Ihrem Personalausweis oder Pass. Das Dokument müssen Sie bei der Anmeldung vorlegen.",
+            "en": "Details of your national ID card or passport. You must show this document when you register."
+          },
+          "sources": [
+            "bmg-3",
+            "bmg-23"
+          ],
+          "demo": "Reisepass, [DEMO – keine echten Daten]"
+        }
+      ]
+    },
+    {
+      "id": "submit",
+      "label": {
+        "de": "Abschluss",
+        "en": "Finishing"
+      },
+      "fields": [
+        {
+          "id": "landlord_confirmation",
+          "label": {
+            "de": "Wohnungsgeberbestätigung",
+            "en": "Landlord's confirmation (Wohnungsgeberbestätigung)"
+          },
+          "help": {
+            "de": "Ihr Wohnungsgeber muss Ihren Einzug innerhalb von zwei Wochen bestätigen (Name und Anschrift des Wohnungsgebers, ggf. des Eigentümers, Einzugsdatum, Anschrift der Wohnung, Namen der meldepflichtigen Personen). Ein Mietvertrag ersetzt diese Bestätigung nicht.",
+            "en": "Your landlord must confirm that you moved in within two weeks (landlord's name and address, owner's name if different, move-in date, the flat's address, names of the people registering). A rental contract does not replace this confirmation."
+          },
+          "sources": [
+            "bmg-19",
+            "berlin-anmeldung"
+          ],
+          "demo": "liegt vor"
+        },
+        {
+          "id": "signature",
+          "label": {
+            "de": "Unterschrift",
+            "en": "Signature"
+          },
+          "help": {
+            "de": "Sie unterschreiben den Meldeschein und legen ihn zusammen mit Ausweis und Wohnungsgeberbestätigung vor.",
+            "en": "You sign the form and hand it in together with your ID and the landlord's confirmation."
+          },
+          "sources": [
+            "bmg-23"
+          ],
+          "demo": "—"
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "de": "Gültiger Personalausweis oder Reisepass (für alle umziehenden Personen, im Original)",
+      "en": "Valid ID card or passport (for everyone moving, originals)",
+      "sources": [
+        "bmg-23",
+        "berlin-anmeldung"
+      ]
+    },
+    {
+      "de": "Wohnungsgeberbestätigung",
+      "en": "Landlord's confirmation (Wohnungsgeberbestätigung)",
+      "sources": [
+        "bmg-19",
+        "berlin-anmeldung"
+      ]
+    },
+    {
+      "de": "Ausgefüllter und unterschriebener Meldeschein (oder Online-Anmeldung)",
+      "en": "Completed and signed registration form (or register online)",
+      "sources": [
+        "bmg-23",
+        "berlin-anmeldung"
+      ]
+    },
+    {
+      "de": "Termin beim Bürgeramt (für die Anmeldung vor Ort)",
+      "en": "An appointment at the Bürgeramt (for registering in person)",
+      "sources": [
+        "berlin-anmeldung"
+      ]
+    },
+    {
+      "de": "Frist: innerhalb von zwei Wochen nach dem Einzug",
+      "en": "Deadline: within two weeks of moving in",
+      "sources": [
+        "bmg-17"
+      ]
+    }
+  ],
+  "sources": {
+    "bmg-17": {
+      "title": "§ 17 BMG – Anmeldung, Abmeldung",
+      "url": "https://www.gesetze-im-internet.de/bmg/__17.html"
+    },
+    "bmg-19": {
+      "title": "§ 19 BMG – Mitwirkung des Wohnungsgebers",
+      "url": "https://www.gesetze-im-internet.de/bmg/__19.html"
+    },
+    "bmg-21": {
+      "title": "§ 21 BMG – Mehrere Wohnungen",
+      "url": "https://www.gesetze-im-internet.de/bmg/__21.html"
+    },
+    "bmg-22": {
+      "title": "§ 22 BMG – Bestimmung der Hauptwohnung",
+      "url": "https://www.gesetze-im-internet.de/bmg/__22.html"
+    },
+    "bmg-23": {
+      "title": "§ 23 BMG – Erfüllung der allgemeinen Meldepflicht",
+      "url": "https://www.gesetze-im-internet.de/bmg/__23.html"
+    },
+    "bmg-27": {
+      "title": "§ 27 BMG – Ausnahmen von der Meldepflicht",
+      "url": "https://www.gesetze-im-internet.de/bmg/__27.html"
+    },
+    "bmg-3": {
+      "title": "§ 3 BMG – Speicherung von Daten",
+      "url": "https://www.gesetze-im-internet.de/bmg/__3.html"
+    },
+    "bmg-54": {
+      "title": "§ 54 BMG – Bußgeldvorschriften",
+      "url": "https://www.gesetze-im-internet.de/bmg/__54.html"
+    },
+    "berlin-anmeldung": {
+      "title": "Wohnsitz – Alleinige Wohnung oder Hauptwohnung anmelden (Service-Portal Berlin)",
+      "url": "https://service.berlin.de/dienstleistung/120686/"
+    }
+  }
+}
